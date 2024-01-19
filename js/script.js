@@ -10,7 +10,7 @@ function calculate() {
     var totalCost = stayCost + foodCost + travelCost;
     var costPerPerson = totalCost / numPeople;
 
-    document.getElementById("result").innerHTML = "Total Cost per Person for " + formattedDate + ": $" + costPerPerson.toFixed(2);
+    document.getElementById("result").innerHTML = "Total Cost per Person for " + formattedDate + ": is ₹" + costPerPerson.toFixed(2);
 }
 
 function formatDate(dateString) {
